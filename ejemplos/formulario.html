@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body >
+    <h1 style="font-size: 100px;">Formulario  <i class="fas fa-camera style-camara  fa-spin"></i>.</h1>
+    <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png" alt="">
+
+    <div class=""></div>
+    <div class="" id="identificador" >
+        Hola mundo 
+    </div>
+
+    <div>
+        <form action="guardar.php" method="post">
+            <h4>ID = #</h4>
+            <h4>class = . </h4>
+            <table  class="tabla">
+                <tr>
+                    <td>
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" name="Nombre" id="Nombre" onchange="hola()" onkeydown="hola()"> 
+
+                    </td>
+                </tr>
+
+              
+
+
+                <tr>
+                    <td>
+                        <label for="Fono">Fono</label>
+                        <input type="number" name="fono" id="Fono"> 
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Fecha">Fecha</label>
+                        <input type="date" name="Fecha" id="Fecha"> 
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Password">Password</label>
+                        <input type="password" name="Password" id="Password">    
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <label for="Ciudad">Ciudad</label>
+                        <select name="" id="Ciudad">
+                            <option value="1">Santiago</option>
+                            <option value="2">Valparaiso</option>
+                            <option value="3">Coquimbo</option>
+                            <option value="4">Pto Montt</option>
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        
+                        <input type="radio" name="genero" value="m" id="Masculino">
+                        <label for="Masculino">Masculino</label>
+
+                        <input type="radio" name="genero" value="f" id="Femenido">
+                        <label for="Femenido">Femenido</label>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        
+                        <input type="checkbox" name="generoCheck" value="1" id="MasculinoCheck">
+                        <label for="MasculinoCheck">Masculino Check</label>
+
+                        <input type="checkbox" name="generoCheck" value="2" id="FemenidoCheck">
+                        <label for="FemenidoCheck">Femenido Check</label>
+                    </td>
+                </tr>
+
+
+
+                <tr>
+                    <td>
+                        
+                        <button type="button" onclick="hola()">Aceptar</button>
+                    </td>
+                </tr>
+
+            </table>
+
+
+        </form>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>

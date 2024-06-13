@@ -1,0 +1,65 @@
+h4{
+    color:red;
+}
+
+h4:hover{
+    color: green;
+}
+
+.tabla{
+    border: 9px solid rgb(36, 102, 36);
+}
+.tabla tr td{
+    padding: 20px !important;
+}
+
+#identificador{
+    width: 500px;
+    height: 300px;
+    border: 2px solid red;
+    font-size:100px ;
+}
+.style-camara{
+    color: red;;
+}
+
+body{
+    background-image: url('https://i.pinimg.com/736x/07/8b/62/078b6225cc16fa67a76bffa9a8bff2b0.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.media{
+    width: 1024px;
+    height: 300px;
+    border: 2px solid red;
+    font-size:100px ;  
+    background-color: gray;  
+}
+
+.media h1{
+    font-size: 28px;;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .media{
+        width: 400px;
+        height: 200px;
+        border: 1px solid red;
+        font-size:100px ;  
+        background-color: green;  
+    }
+}
+@media (max-width: 480px) {    
+    .media{
+        width: 200px;
+        height: 200px;
+        border: 1px solid red;
+        font-size:100px ;  
+        background-color: red;  
+    }
+    
+
+}
