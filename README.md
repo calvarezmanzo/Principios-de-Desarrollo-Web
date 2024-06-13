@@ -5,6 +5,9 @@
 </p>
 
 ## Principios de Desarrollo Web
+
+# [Video - clase](https://www.youtube.com/watch?v=W_H5velFKKU)
+
 ### Contenido:
 * Introducción a la Web
 * Creando tu Primer Documento HTML
